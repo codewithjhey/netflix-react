@@ -18,7 +18,11 @@ const NavBarTop = () => {
           <Nav.Link href="#">My List</Nav.Link>
         </Nav>
         <Nav>
-          <a class="nav-link active" aria-current="page" href="#">
+          <a
+            className="nav-link active"
+            aria-current="page"
+            href="./profile.html"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -31,13 +35,13 @@ const NavBarTop = () => {
             </svg>
           </a>
           <Nav.Link href="#">KIDS</Nav.Link>
-          <a class="nav-link" href="#">
+          <a className="nav-link" href="./kids.html">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
-              class="bi bi-bell-fill icon"
+              className="bi bi-bell-fill icon"
               viewBox="0 0 16 16"
             >
               <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z" />
@@ -49,10 +53,10 @@ const NavBarTop = () => {
           <NavDropdown id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="http://ubeytdemir.me/netflix-ui/profile.html"
               >
-                <div class="d-flex align-items-center">
+                <div className="d-flex align-items-center">
                   <img src="avatar.png" alt="avatar-small" id="avatar-small" />
                   Ubeyt
                 </div>
@@ -60,7 +64,7 @@ const NavBarTop = () => {
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="http://ubeytdemir.me/netflix-ui/profile.html"
               >
                 Manage Profiles
@@ -68,21 +72,21 @@ const NavBarTop = () => {
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.3">
               <a
-                class="dropdown-item"
+                className="dropdown-item"
                 href="http://ubeytdemir.me/netflix-ui/accounts.html"
               >
                 Account
               </a>
             </NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="./help.html">
                 Help Center
               </a>
             </NavDropdown.Item>
 
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">
-              <a class="dropdown-item" href="#">
+              <a className="dropdown-item" href="./signout.html">
                 Signout Netflix
               </a>
             </NavDropdown.Item>

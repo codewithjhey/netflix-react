@@ -49,16 +49,25 @@ const MyFooter = () => {
               </svg>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Audio and Subtitles</a>
+              <a className="nav-link text-muted" href="./subtitle.html">
+                Audio and Subtitles
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Media Center</a>
+              <a className="nav-link text-muted" href="./media.html">
+                Media Center
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Privacy</a>
+              <a className="nav-link text-muted" href="./privacy.html">
+                {" "}
+                Privacy{" "}
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Contact Us</a>
+              <a className="nav-link text-muted" href="./contact.html">
+                Contact Us
+              </a>
             </li>
             <li className="nav-item mt-2">
               <button className="btn btn-outline-secondary">
@@ -66,46 +75,66 @@ const MyFooter = () => {
               </button>
             </li>
             <li className="nav-item mt-2">
-              <a className="nav-link text-muted">© 1997-2021 Netflix Inc</a>
+              <a className="nav-link text-muted" href="./copy.html">
+                © 1997-2021 Netflix Inc
+              </a>
             </li>
           </ul>
         </div>
         <div className="col-md-3">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link text-muted">Audio Description</a>
+              <a className="nav-link text-muted" href="./audio.html">
+                Audio Description
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Investor Relations</a>
+              <a className="nav-link text-muted" href="./investor.html">
+                Investor Relations
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Legal Notices</a>
-            </li>
-          </ul>
-        </div>
-        <div className="col-md-3">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link text-muted">Help Center</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-muted">Jobs</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link text-muted">Cookie Preferences</a>
+              <a className="nav-link text-muted" href="./legal.html">
+                Legal Notices
+              </a>
             </li>
           </ul>
         </div>
         <div className="col-md-3">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link text-muted">Gift Cards</a>
+              <a className="nav-link text-muted" href="./help.html">
+                Help Center
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Terms Of Use</a>
+              <a className="nav-link text-muted" href="./jobs.html">
+                Jobs
+              </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-muted">Corporate Information</a>
+              <a className="nav-link text-muted" href="./cookie.html">
+                Cookie Preferences
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div className="col-md-3">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link text-muted" href="./gift.html">
+                Gift Cards
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-muted" href="./terms.html">
+                Terms Of Use
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link text-muted" href="./corporate.html">
+                Corporate Information
+              </a>
             </li>
           </ul>
         </div>

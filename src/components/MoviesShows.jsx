@@ -19,20 +19,24 @@ class MoviesShows extends Component {
         this.setState({ movies: data.Search, isLoading: false })
       } else {
         alert("Something went wrong :(")
+        this.setState({ isLoading: false })
       }
     } catch (error) {
       alert(error)
+      this.setState({ isLoading: false })
     }
   }
 
-  componentDidMount() {
+  componentDidMount = () => {
     this.moviesFetch()
   }
 
   render() {
     return (
       <Container fluid>
-        {this.state.isLoading && <Spinner animation="border" />}
+        {this.state.isLoading && (
+          <Spinner animation="border" variant="warning" />
+        )}
         <h4 className="d-flex my-3 movie-title">{this.props.movie}</h4>
         <Carousel indicators={false} className="my-2">
           <Carousel.Item>
